@@ -1,0 +1,27 @@
+/*
+** EPITECH PROJECT , 2019
+** my_isneg
+** File description :
+** display
+*/
+
+#include <stdio.h>
+#include <unistd.h>
+
+int my_isneg(int n)
+{
+    double integer;
+    printf("Enter a integer: ");
+    scanf("%lf", &integer);
+    if (integer <= 0.0)
+    {
+        if (integer == 0.0)
+            printf("Null");
+        else
+            printf("N");
+    }
+    else
+        printf("P");
+    return 0;
+    
+}

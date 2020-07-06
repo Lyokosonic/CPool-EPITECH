@@ -1,0 +1,51 @@
+/*
+** EPITECH PROJECT , 2019
+** my_print_comb
+** File description :
+** print the all the numbers composed by three different digits numbers.
+*/
+
+#include <stdio.h>
+#include <unistd.h>
+
+void my_putchar(char c)
+{
+    write(1, &c, 1);
+    
+}
+
+int my_print_comb(void)
+{
+     
+ char i, j, k;
+
+ i = 0;
+ while (i <= 7)
+ {
+     j = i + 1;
+     while (j <= 8)
+     {
+         k = j + 1;
+         while(k <= 9)
+         {
+             my_putchar(i + 48);
+             my_putchar(j + 48);
+             my_putchar(k + 48);
+             if (i!=7, j!=8, k!=9)
+             {
+                 my_putchar(',');
+                 my_putchar(' ');
+             }
+             k++;
+         }
+         j++;
+     }
+     i++;
+ }
+}
+
+int main(void)
+{
+    my_print_comb();
+}
+
