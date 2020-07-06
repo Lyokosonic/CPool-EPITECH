@@ -1,1 +1,1 @@
-# CPool-EPITECH
+# Piscine de C Epitech
