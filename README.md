@@ -1,8 +1,8 @@
 # Piscine de C Epitech
 
-# Score:
-#  CPool_Day01_2019: 87.5 "Functional"
-#  CPool_Day02_2019: 85.7 "Functional"
+Score: <br/>
+  CPool_Day01_2019: 87.5 "Functional"
+  CPool_Day02_2019: 85.7 "Functional"
   CPool_Day03_2019: 0 "No test passed"
   CPool_Day04_2019: 0 "No test Passed"
   CPool_Day05_2019: 87.5 "Functional"
