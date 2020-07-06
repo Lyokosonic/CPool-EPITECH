@@ -19,3 +19,9 @@ Score: <br/>
   <p> CPool_rush2_2019: 50 "Functional</p><br/>
   <p> CPool_Tree_2019: / "Functional"</p><br/>
   <p> CPool_workshoplib_2019: 72.4 "Functional"</p>
+  
+  <p>
+  Score:
+    CPool_Day01_2019: 87.5 "Functional"
+    CPool_Day02_2019: 85.7 "Functional"
+  </p>
